@@ -1,0 +1,104 @@
+const help = (prefix) => {
+	return `
+───▄▀▀▀▄▄▄▄▄▄▄▀▀▀▄───
+───█▒▒░░░░░░░░░▒▒█───
+────█░░█░░░░░█░░█────
+─▄▄──█░░░▀█▀░░░█──▄▄─
+█░░█─▀▄░░░░░░░▄▀─█░░█
+█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+█░░╦─╦╔╗╦─╔╗╔╗╔╦╗╔╗░░█
+█░░║║║╠─║─║─║║║║║╠─░░█
+█░░╚╩╝╚╝╚╝╚╝╚╝╩─╩╚╝░░█
+█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+   ╭─━─━─━─━─━─━─━─
+   │  informações
+   │OpallBot-V7
+   │Prefixo: ${prefix}  
+   │Criador: S.a
+   ╰─━─━─━─━─━─━─━─╮
+                            │
+ ╭━─━─━─━─━─━─━─━─╯
+ ╠══》〘⭕*SOBRE*⭕〙
+ ┃ 
+ ┃➥⚡${prefix}info
+ ┃➥⚡${prefix}blocklist
+ ┃➥⚡${prefix}chatlist
+ ┃➥⚡${prefix}ping
+ ┃➥⚡${prefix}bugreport
+ ╰━─━─━─━─━─━─━─━╮
+ ╭━─━─━─━─━─━─━─━╯
+ ╠══》〘⭕*FAZER*⭕〙
+ │
+ │➥⚡${prefix}sticker
+ │➥⚡${prefix}stickergif
+ │➥⚡${prefix}toimg
+ │➥⚡${prefix}tomp3
+ ╰━─━─━─━─━─━─━─━╮
+ ╭━─━─━─━─━─━─━─━╯
+ ╠══》〘⭕*MEDIA*⭕〙
+ │
+ │➥⚡${prefix}trendtwit
+ │➥⚡${prefix}randomkpop
+ │➥⚡${prefix}ytsearch
+ ╰━─━─━─━─━─━─━─━╮
+ ╭━─━─━─━─━─━─━─━╯
+ ╠══》〘⭕*EDUCATION*⭕〙
+ │
+ │➥⚡${prefix}wiki
+ │➥⚡${prefix}wikien
+ │➥⚡${prefix}nulis
+ │➥⚡${prefix}quotes
+ │➥⚡${prefix}quotes2
+ │➥⚡${prefix}artinama
+ ╰━─━─━─━─━─━─━─━╮
+ ╭━─━─━─━─━─━─━─━╯
+ ╠══》〘⭕*KERANG AJAIB*⭕〙
+ │
+ │➥⚡${prefix}apakah
+ │➥⚡${prefix}kapankah
+ │➥⚡${prefix}rate
+ │➥⚡${prefix}bisakah
+ ╰━─━─━─━─━─━─━─━╮
+ ╭━─━─━─━─━─━─━─━╯
+ ╠══》〘⭕*DOWNLOADER*⭕〙
+ │
+ │➥⚡${prefix}images
+ │➥⚡${prefix}ytmp3
+ │➥⚡${prefix}ytmp4
+ │➥⚡${prefix}tiktok
+ │➥⚡${prefix}joox
+ ╰━─━─━─━─━─━─━─━╮
+ ╭━─━─━─━─━─━─━─━╯
+ ╠══》〘⭕*SOM*⭕〙
+ │
+ │➥⚡${prefix}play
+ │➥⚡${prefix}tts
+ ╰━─━─━─━─━─━─━─━╮
+ ╭━─━─━─━─━─━─━─━╯
+ ╠══》〘⭕*MÚSICA*⭕〙
+ │
+ │➥⚡${prefix}lirik
+ │➥⚡${prefix}chord
+ ╰━─━─━─━─━─━─━─━╮
+ ╭━─━─━─━─━─━─━─━╯
+ ╠══》〘⭕*DONO*⭕〙
+ │
+ │➥⚡${prefix}setprefix
+ │➥⚡${prefix}block
+ │➥⚡${prefix}bc
+ │➥⚡${prefix}bcgc
+ │➥⚡${prefix}clone  
+ │➥⚡${prefix}clearall
+ ╰━─━─━─━─━─━─━─━╮
+ ╭━─━─━─━─━─━─━─━╯
+ ╠══》〘⭕*OUTROS*⭕〙
+ │
+ │➥⚡${prefix}wame
+ │➥⚡${prefix}virtex
+ │➥⚡${prefix}exe
+ │➥⚡${prefix}qrcode    
+ ╰━─━─━─━─━─━─━─━╯
+`
+}
+
+exports.help = help
